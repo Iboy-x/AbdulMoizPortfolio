@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+ body {
+  background-color: black;
+  margin: 0;
+  padding: 20vh;
+  color: white;
+}
+
+section {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  position: absolute ;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 8px;
+}
+
+.blob1-motion {
+  position:  absolute;
+  transform:  translateY(-10%);
+  transform: translateX(30%);
+  z-index: 0;
+}
+
+
+
+.blob2-motion {
+  position: center ;
+  transform:  translateX(-20%);
+  z-index: 0;
+
+}
+
+.row {
+  display: flex;
+  gap: 10px; 
+}
+
+.column {
+  flex: 1; 
+  padding: 10px;
+  text-align: center;
+}
+
+/* Glass Card */
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+  backdrop-filter: blur(50px);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 30px 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  width: 80%;
+  height: 60%;
+}
+
+h3{
+  color: rgb(30, 29, 29);
+  font-weight: bold;
+  font-size: 2.0rem;
+  margin-bottom: none;
+}
+h3:hover {
+  color: #fff;
+  font-size: 2.3rem;
+}
+
+h1 {
+  font-style: "Playfair Display";
+  font-size: 3.0rem;
+  margin-bottom: 10px;
+  margin-top: none;
+  color: #fff;
+}
+h1:hover {
+  font-size: 3.4rem;
+  color: rgb(30, 29, 29);
+}
+
+p {
+  color: rgb(30, 29, 29);
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+p:hover {
+  color: white;
+  size: 1.4rem;
+
+}
